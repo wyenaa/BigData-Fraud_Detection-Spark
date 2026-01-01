@@ -26,7 +26,7 @@ This project was deployed on a **Multi-Node Hadoop Cluster** running on Ubuntu L
 * Configured Hadoop core components (`core-site.xml`, `hdfs-site.xml`, `yarn-site.xml`, `hadoop-env.sh`) and Java environment variables.
 * Managed HDFS commands (`hdfs dfs -put`, `ls`, `mkdir`) to ingest raw CSV data from local storage to the distributed file system.
 
-### 2Distributed Data Processing (ETL)
+### 2. Distributed Data Processing (ETL)
 * Utilized **SparkSession** to ingest data into Spark DataFrames.
 * Performed schema validation and type casting (e.g., converting `amount` to Double).
 * Handled missing values and feature engineering using **VectorAssembler** and **StringIndexer** to prepare data for ML models.
